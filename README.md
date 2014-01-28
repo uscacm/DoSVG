@@ -7,11 +7,11 @@ References Links
 ===============
 
 SVG Animation: 
-    http://msdn.microsoft.com/en-us/library/ie/bg124137(v=vs.85).aspx
+http://msdn.microsoft.com/en-us/library/ie/bg124137(v=vs.85).aspx
 
 SVG Drawing:
-    http://commons.oreilly.com/wiki/index.php/SVG_Essentials/Preface
-    https://developer.mozilla.org/en-US/docs/Web/SVG
+http://commons.oreilly.com/wiki/index.php/SVG_Essentials/Preface
+https://developer.mozilla.org/en-US/docs/Web/SVG
 
 Prize
 ====
