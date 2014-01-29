@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+  .axis { stroke: gray ; }
+  </style>
+</head>
+<body>
+  <div id="board">
+    <svg id="svgElement" width="1090px" height="600px" viewBox="0 0 1090 600">
+      <rect x="0" y="0" id="arena" width="100%" height="100%" rx="10" ry="10" style="fill: white; stroke: black;" />
+      <g id="coordinateFrame" transform="translate(545, 300)">
+        <!--Cordinate system-->
+        <line x1="-545" y1="0" x2="545" y2="0" class="axis" /> <!--x -axis-->
+        <line x1="0" y1="-300" x2="0" y2="300" class="axis" /> <!--y-axis-->
+        <!--Cordinate system-->
+        <text x="-150" y="30" fill="red">Total number of people</text>
+        <text x="10" y="-15" fill="red">Total number of people</text>
+          
+        <rect x="0" y="0" width="20" height="200" stroke="black" fill="yellow">    
+          <animate attributeName="height"  attributeType="XML" from="0" to="200" begin="0s" dur="5s" fill="freeze" />    
+        </rect>     
+        
+        <rect x="50" y="0" width="20" height="250" stroke="black" fill="aliceblue">    
+          <animate attributeName="height"  attributeType="XML" from="0" to="250" begin="0s" dur="5s" fill="freeze" />    
+        </rect>     
+
+        <rect x="100" y="0" width="20" height="280" stroke="black" fill="green">    
+          <animate attributeName="height"  attributeType="XML" from="0" to="280" begin="0s" dur="5s" fill="freeze" />    
+        </rect>     
+
+      </g>    
+        
+    </svg>
+
+  </div>
+</body>
+</html>
