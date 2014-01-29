@@ -24,6 +24,11 @@ http://commons.oreilly.com/wiki/index.php/SVG_Essentials/Preface
 
 https://developer.mozilla.org/en-US/docs/Web/SVG
 
+SVG Editor:
+
+http://svg-edit.googlecode.com/svn-history/r1771/trunk/editor/svg-editor.html#delete
+
+
 Prize
 ====
 

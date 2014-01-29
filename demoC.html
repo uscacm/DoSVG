@@ -2,7 +2,8 @@
 <html>
 <head>
   <style>
-  .axis { stroke: gray ; }
+  .axis { stroke: gray ; stroke-dasharray: 8px; }
+   
   </style>
 </head>
 <body>
@@ -14,16 +15,16 @@
         <line x1="-545" y1="0" x2="545" y2="0" class="axis" /> <!--x -axis-->
         <line x1="0" y1="-300" x2="0" y2="300" class="axis" /> <!--y-axis-->
         <!--Cordinate system-->
-        <text x="-100" y="-50" fill="red">Condom sale</text>
-        <text x="150" y="90" fill="red">Months</text>
-        <text x="100" y="30" fill="red">Jan</text>
-        <text x="200" y="30" fill="red">Feb</text>
-        <text x="300" y="30" fill="red">March</text>
+        <text x="-100" y="-50" fill="black">Condom sale</text>
+        <text x="150" y="90" fill="black">Months</text>
+        <text x="100" y="30" fill="black">Jan</text>
+        <text x="200" y="30" fill="black">Feb</text>
+        <text x="300" y="30" fill="black">March</text>
 
-         <path d = "M 0 0  L 100 -100 L 200 -100 L 400 -500 L 400 -100 L 1500 -100" stroke="silver" stroke-width = "1" fill = "none" id="graph1"/>
-         <circle cx="" cy="" r="5" fill="red">
+         <path d = "M 0 0  L 100 -100 L 200 -100 L 400 -500 L 400 -100 L 1500 -100" stroke="black" stroke-width = "2" fill = "none" id="graph1"/>
+         <circle cx="" cy="" r="5" fill="green">
            <!-- Define the motion path animation -->
-           <animateMotion dur="6s" repeatCount="indefinite">
+           <animateMotion dur="10s" repeatCount="indefinite">
              <mpath xlink:href="#graph1"/>
            </animateMotion>
          </circle>
